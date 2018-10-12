@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ValidateApp
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ printMenu()
+comment3.params=msg\ type
+comment3.target=java.lang.String\ getInput(java.lang.String,\ java.lang.String)
+numComments=4

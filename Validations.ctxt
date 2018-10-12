@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Validations
+comment0.text=\r\n\ A\ supplier\ class\ that\ has\ logic\ to\ validate\ all\ kinds\ of\ input\ from\ the\ user\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 10.16.2018\r\n
+comment1.params=zip
+comment1.target=boolean\ isValidZip(java.lang.String)
+comment1.text=\r\n\ A\ method\ to\ test\ if\ a\ string\ is\ a\ valid\ zip\ code\r\n\ Criteria\:\r\n\ 5\ digits\ with\ optional\ 4\ extra\ at\ the\ end\r\n\ No\ letters\r\n
+comment2.params=ssn
+comment2.target=boolean\ isValidSSN(java.lang.String)
+comment2.text=\r\n\ A\ method\ to\ test\ if\ a\ String\ is\ a\ valid\ SSN\r\n\ Criteria\:\r\n\ 3\ digits\ followed\ by\ a\ dash\ followed\ by\ 2\ digits\ and\ a\ dash\ followed\ by\ 4\ digits\ and\ a\ dash\r\n
+comment3.params=password
+comment3.target=boolean\ isValidPassword(java.lang.String)
+comment3.text=\r\n\ A\ method\ to\ test\ if\ a\ string\ is\ a\ valid\ password.\ Here\ are\ the\ criteria\:\r\n\ at\ least\ 6\ characters\r\n\ at\ least\ 1\ uppercase\r\n\ at\ least\ 1\ symbol\r\n\ at\ least\ 1\ digit\r\n\ no\ spaces\r\n
+comment4.params=instructions
+comment4.target=boolean\ isValidInstructions(java.lang.String)
+numComments=5
