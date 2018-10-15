@@ -6,8 +6,7 @@
  * @version 10.16.2018
  */
 public class Validations
-{
-    
+{    
    /**
     * A method to test if a string is a valid zip code
     * Criteria:
@@ -40,9 +39,5 @@ public class Validations
     public static boolean isValidPassword(String password) {
         //[^ ]* regex disallows any number of spaces
        return password.matches("[^ ]*");
-   }
-   
-    public static boolean isValidInstructions(String instructions) {
-       return instructions.matches("[0-9]{3}-[0-9]{2}-[0-9]{4}");
-   }
+   }   
 }

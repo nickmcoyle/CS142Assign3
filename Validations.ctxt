@@ -10,6 +10,4 @@ comment2.text=\r\n\ A\ method\ to\ test\ if\ a\ String\ is\ a\ valid\ SSN\r\n\ C
 comment3.params=password
 comment3.target=boolean\ isValidPassword(java.lang.String)
 comment3.text=\r\n\ A\ method\ to\ test\ if\ a\ string\ is\ a\ valid\ password.\ Here\ are\ the\ criteria\:\r\n\ at\ least\ 6\ characters\r\n\ at\ least\ 1\ uppercase\r\n\ at\ least\ 1\ symbol\r\n\ at\ least\ 1\ digit\r\n\ no\ spaces\r\n
-comment4.params=instructions
-comment4.target=boolean\ isValidInstructions(java.lang.String)
-numComments=5
+numComments=4
