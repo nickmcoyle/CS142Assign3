@@ -9,5 +9,5 @@ comment2.target=boolean\ isValidSSN(java.lang.String)
 comment2.text=\r\n\ A\ method\ to\ test\ if\ a\ String\ is\ a\ valid\ SSN\r\n\ Criteria\:\r\n\ 3\ digits\ followed\ by\ a\ dash\ followed\ by\ 2\ digits\ and\ a\ dash\ followed\ by\ 4\ digits\ and\ a\ dash\r\n
 comment3.params=password
 comment3.target=boolean\ isValidPassword(java.lang.String)
-comment3.text=\r\n\ A\ method\ to\ test\ if\ a\ string\ is\ a\ valid\ password.\ Here\ are\ the\ criteria\:\r\n\ at\ least\ 6\ characters\r\n\ at\ least\ 1\ uppercase\r\n\ at\ least\ 1\ symbol\r\n\ at\ least\ 1\ digit\r\n\ no\ spaces\r\n
+comment3.text=\r\n\ A\ method\ to\ test\ if\ a\ string\ is\ a\ valid\ password.\ Here\ are\ the\ criteria\:\r\n\ at\ least\ 6\ characters\r\n\ at\ least\ one\ letter\ upper\ or\ lowercase\ \ \r\n\ at\ least\ 1\ symbol\r\n\ at\ least\ 1\ digit\r\n\ no\ spaces\r\n
 numComments=4

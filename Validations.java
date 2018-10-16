@@ -31,13 +31,13 @@ public class Validations
    /**
     * A method to test if a string is a valid password. Here are the criteria:
     * at least 6 characters
-    * at least 1 uppercase
+    * at least one letter upper or lowercase  
     * at least 1 symbol
     * at least 1 digit
     * no spaces
     */
     public static boolean isValidPassword(String password) {
-        //[^ ]* regex disallows any number of spaces
-       return password.matches("[^ ]*");
+       //(?= is a positive lookahead and matches this anywhere in the String 
+       return password.matches("^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[_!@#$%&])[A-Za-z0-9_!@#$%&]{6,}$");
    }   
 }
